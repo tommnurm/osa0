@@ -1,0 +1,11 @@
+note over selain:
+selain luo tapahtumankäsittelijän
+lomakkeen lähettämistä varten
+end note
+note over selain:
+tapahtumankäsittelijä luo uuden
+muistiinpanon-olion, lisää sen listaan
+ja piirtää listan uudelleen
+end note
+
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
